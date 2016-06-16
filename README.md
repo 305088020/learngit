@@ -24,4 +24,8 @@ git 常用命令：
 分支管理策略
 git merge --no-ff -m "merge with no-ff" dev
 
+
 issue-001问题修复
+
+用带参数的git log也可以看到分支的合并情况：
+git log --graph --pretty=oneline --abbrev-commit
