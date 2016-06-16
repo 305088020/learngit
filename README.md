@@ -18,3 +18,5 @@ git 常用命令：
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
+
+强制删除未合并的分支：git branch -d <name>
