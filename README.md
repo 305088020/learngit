@@ -20,3 +20,6 @@ git 常用命令：
 删除分支：git branch -d <name>
 
 强制删除未合并的分支：git branch -d <name>
+
+分支管理策略
+git merge --no-ff -m "merge with no-ff" dev
